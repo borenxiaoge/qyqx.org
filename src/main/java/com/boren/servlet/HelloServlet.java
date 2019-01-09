@@ -13,7 +13,6 @@ public class HelloServlet extends javax.servlet.http.HttpServlet {
             response.getWriter().println("<h1>Hello Servlet!</h1>");
             response.getWriter().println(new Date());
         } catch (IOException e) {
-            // TODO Auto-generated catch block
             e.printStackTrace();
         }
     }
